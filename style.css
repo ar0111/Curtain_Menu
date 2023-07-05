@@ -1,0 +1,132 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* The overlay from Side */
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.884);
+    height: 100%;
+    width: 0;
+    left: 0;
+    top:0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    position: fixed;
+}
+
+.overlay-content{
+    position: relative;
+    top:25%;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.overlay a{
+    display: block;
+    color: gray;
+    text-decoration: none;
+    text-align: center;
+    font-size: 36px;
+    padding: 12px;
+    transition: 0.3s;
+}
+
+.overlay a:hover{
+    color: white;
+}
+
+.overlay .closebtn{
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+.button{
+    background-color: rgba(32, 32, 32, 0.575);
+    color: white;
+    padding: 18px 30px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.button:focus{
+    outline: none;
+}
+
+.button:hover{
+    background-color: rgb(5, 116, 33);
+}
+
+/* The overlay from Top */
+
+.overlay1{
+    background-color: rgba(0, 0, 0, 0.884);
+    height: 0;
+    width: 100%;
+    left: 0;
+    top:0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    position: fixed;
+}
+
+.overlay1 a{
+    display: block;
+    color: gray;
+    text-decoration: none;
+    text-align: center;
+    font-size: 36px;
+    padding: 12px;
+    transition: 0.3s;
+}
+
+.overlay1 a:hover{
+    color: white;
+}
+
+.overlay1 .closebtn{
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+/* The overlay No Animation */
+
+.overlay2{
+    background-color: rgba(0, 0, 0, 0.884);
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top:0;
+    display: none;
+    transition: 0.5s;
+    position: fixed;
+}
+
+.overlay2 a{
+    display: block;
+    color: gray;
+    text-decoration: none;
+    text-align: center;
+    font-size: 36px;
+    padding: 12px;
+    transition: 0.3s;
+}
+
+.overlay2 a:hover, .overlay2 a:focus{
+    color: white;
+}
+
+.overlay2 .closebtn{
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    outline: none;
+}
